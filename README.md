@@ -9,16 +9,23 @@
  
 ## Hardware
 AirView2 has:
-- USB Type A
-- MMCX for external antenna
-- cpu CC2511-F32
-- green LED
-- pin on PCB for Button
-- pin PWR (power)
-- pin RESET_N
-- pin CLK
-- pin DATA
-- pin GND
+* USB Type A
+* MMCX for external antenna
+* cpu CC2511-F32 (32 KB of flash memory, 4 KB of RAM)
+* green LED
+* pin on PCB for Button
+* pin PWR (power)
+* pin RESET_N
+* pin CLK
+* pin DATA
+* pin GND
+* Radio:
+  * Frequency: 2400 – 2483.5 MHz
+  * Range: approximately 50 feet (under typical conditions indoors)
+  * Bit rate: programmable, up to 350 kbps
+  * Effective data rate: up to 10 KB/s
+
+ [Datasheet!](http://www.ti.com/lit/ds/symlink/cc2511.pdf)
 
 [![PCB](https://wakygw-am3pap001.files.1drv.com/y4m6NaRCc7P8FNoK_G2AHrIFgZnmZdj8VMrzq1CEHk7PKtiKo6LBDYePhe1VSKdz6yNzmSBM3jL4N4TRxrhWEFwAFrDNFdiAR2PSLgIxOOZt4Gdkyh5a9wAV18kb1gn35Q7tQf68YtnukdZlUcpERrCH_3xLsQiOZS54CE0D4X40z9NDzGRUrJFmUbfpEOzWeNcLCJORXsLGM_AA9vq_8xRDA?width=600&height=912&cropmode=none)](https://wakygw-am3pap001.files.1drv.com/y4m6NaRCc7P8FNoK_G2AHrIFgZnmZdj8VMrzq1CEHk7PKtiKo6LBDYePhe1VSKdz6yNzmSBM3jL4N4TRxrhWEFwAFrDNFdiAR2PSLgIxOOZt4Gdkyh5a9wAV18kb1gn35Q7tQf68YtnukdZlUcpERrCH_3xLsQiOZS54CE0D4X40z9NDzGRUrJFmUbfpEOzWeNcLCJORXsLGM_AA9vq_8xRDA?width=600&height=912&cropmode=none)
 
@@ -39,8 +46,12 @@ Voltage Regulator
 
 [![Voltage Regulator](https://wakvgw-am3pap001.files.1drv.com/y4mNCcrIpWTeUmx4CeEPQohQqzc0-efEijlMu2Tw1a__ycdiMDwLneI7wBxplSeGwnI4ydlZwNOJBXbSN8YWoYJSxilCnuDMOJgCHUZS7AA0TGkIXDOozRlkG4PdAjISIR1yOPStiix3-Wxu0dCEp50aGOJp6zgEJYkEENeD9MBHLYJAL3YHBf2__kfVgKlHg-2XaIRdrmPRqnMnHzSTPeBKg?width=320&height=320&cropmode=none)](https://wakvgw-am3pap001.files.1drv.com/y4mNCcrIpWTeUmx4CeEPQohQqzc0-efEijlMu2Tw1a__ycdiMDwLneI7wBxplSeGwnI4ydlZwNOJBXbSN8YWoYJSxilCnuDMOJgCHUZS7AA0TGkIXDOozRlkG4PdAjISIR1yOPStiix3-Wxu0dCEp50aGOJp6zgEJYkEENeD9MBHLYJAL3YHBf2__kfVgKlHg-2XaIRdrmPRqnMnHzSTPeBKg?width=320&height=320&cropmode=none)
 ## Pin connections
-?pic
-?pic
+[![Pin connection](https://waktgw-am3pap001.files.1drv.com/y4mBJwuB5FXcT4IiJugifdSOkFnvFpk2rHSIac7DvU1oH9BcUXFIk0Xc8UdfS1WBnZlsHXZSY8mrlejXawCKL2RMSHHcs7q8g3qEaPhSxqWz2e1XCQ13hHvBsP61W_pS4RIFh8k-N6wovidwFobOyONO5ObMiiHeQxlVXKMS18FFQ9FD5g7VGHqQVXB5_cqikuUAwf1pAxKpxm4c73w4naZHA?width=640&height=640&cropmode=none)
+
+## DEV Software
+[Polulu Wixel SDK!](https://github.com/pololu/wixel-sdk)
+
+...?
 
 Do you have any idea?
 
