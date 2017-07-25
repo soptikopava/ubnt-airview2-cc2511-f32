@@ -11,14 +11,14 @@
 AirView2 has:
 - USB Type A
 - MMCX for external antenna
-- CC2511-F32 CPU
+- cpu CC2511-F32
 - green LED
 - pin on PCB for Button
 - pin PWR (power)
-- RESET_N pin
+- pin RESET_N
 - pin CLK
 - pin DATA
-- GND pin
+- pin GND
 
 ## Pin connections
 ?pic
